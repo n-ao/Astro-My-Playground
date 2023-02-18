@@ -2,11 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Anime from '../components/Anime.astro';
+import Title from '../components/Title';
+
+let title = "This title is displayed by using React.";
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>2023-02-18 <span class="text-gradient">Astro Test</span></h1>
+		<p class="Title">{title}</p>
 		<p class="instructions">
 			タグを追加
 		</p>
