@@ -1,0 +1,41 @@
+---
+const myFavouriteAnime = ["SAO", "プリコネ", "ぼっちざろっく"];
+---
+
+<h2>Fragmentを使ってみる</h2>
+<ul>
+    <h3>好きなアニメ</h3>
+    <p class= "AnimeList">
+        hoge
+        {myFavouriteAnime.map((title) => (
+            <>
+                <li>{title}</li>
+            </>
+        ))}
+    </p>
+</ul>
+
+<style>
+    h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 100;
+        margin: 0;
+    }
+
+    ul li {
+        color:blue;
+        margin-left: 1rem;
+    }
+
+    .AnimeList {
+        font-size: 1rem;
+        color:red;
+        margin: 10;
+    }
+</style>
