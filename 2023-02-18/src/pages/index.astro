@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Anime from '../components/Anime.astro';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -8,6 +9,10 @@ import Card from '../components/Card.astro';
 		<h1>2023-02-18 <span class="text-gradient">Astro Test</span></h1>
 		<p class="instructions">
 			タグを追加
+		</p>
+		<p class="MyFavAnime">
+			<Anime
+			/>
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
