@@ -18,6 +18,7 @@
 - npm run dev
 - npm create astro@latest
 - npm install @types/react
+- npm create astro@latest -- --template [theme name]
 
 ## npx
 - npx astro add react
