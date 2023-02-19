@@ -1,0 +1,25 @@
+@use "reset";
+@use "variables";
+@use "layout";
+@use "content";
+
+html {
+	font-size: 112.5%;
+}
+
+body {
+	line-height: 1.6;
+	tab-size: 4;
+	font-weight: 400;
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+	background: var( --background-color );
+	color: var( --text-color );
+}	
+
+a {
+	color: hsl(188 74% 50%);
+
+	&:hover, &:focus {
+		color: hsl(188 74% 70%);
+	}
+}
