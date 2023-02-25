@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Profile from '../components/Profile.astro';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -9,6 +10,14 @@ import Card from '../components/Card.astro';
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+		</p>
+		<p class="profile">
+			<Profile
+				href="https://docs.astro.build/"
+				title="Profile"
+				body="This is my profile."
+				tag="profile"
+			/>
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -77,5 +86,14 @@ import Card from '../components/Card.astro';
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 1rem;
 		padding: 0;
+	}
+
+	.proflie {
+		line-height: 2.0;
+		margin: 1.5rem 0;
+		border: 2px solid rgba(var(--accent), 25%);
+		background-color: gray;
+		padding: 1rem;
+		border-radius: 0.4rem;
 	}
 </style>
