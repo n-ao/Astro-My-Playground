@@ -8,7 +8,15 @@
 - [用語系](#-用語系)
 - [メソッド・プロパティ](#-メソッドプロパティ)
 - [その他](#-その他)
-- [参考ページ・ドキュメント](#-参考ページドキュメント)
+- [参考ページ・ドキュメント(Official)](#-参考ページドキュメントofficial)
+- [公式ドキュメント一覧](#-公式ドキュメント一覧)
+  - [1. Start Here](#-1-start-here)
+  - [2. Tutorial](#-2-tutorial)
+  - [3. Core Concepts](#-3-core-concepts)
+  - [4. Basics](#-4-basics)
+  - [5. Guides](#-5-guides-)
+  - [6. Configuration](#-6-configuration-)
+  - [7. Reference](#-7-reference-)
 
 <!-- /code_chunk_output -->
 
@@ -50,9 +58,12 @@ getEntryBySlug(Collection name, Slug)|ContentCollectionsの単一エントリー
 Nano Stores|ページ間・コンポーネント間の状態共有|`npm install nanostores`
 Zod|Content Collections APIに関係|
 Remark|AstroのMarkdown扱う部分に関係|
+Prism|Syntax highlighter|
+Shiki|Syntax highlighter|
 
+---
 
-## 参考ページ・ドキュメント
+## 参考ページ・ドキュメント(Official)
 - Project Structure
     - https://docs.astro.build/en/core-concepts/project-structure/
 
@@ -61,7 +72,8 @@ Remark|AstroのMarkdown扱う部分に関係|
 - Getting started
     - https://docs.astro.build/en/getting-started/
 - Tutorial
-    - https://docs.astro.build/en/tutorial/0-introduction/
+    - Build your first Astro Blog
+        - https://docs.astro.build/en/tutorial/0-introduction/
 
 ---
 
@@ -76,3 +88,56 @@ Remark|AstroのMarkdown扱う部分に関係|
         - https://docs.astro.build/en/reference/integrations-reference/
     - Template Directives
         - https://docs.astro.build/en/reference/directives-reference/
+
+---
+
+## 公式ドキュメント一覧
+全理解するために一覧を用意し、進捗を反映していく
+
+|No.|項目   |説明|備考
+|--|--|--|--|
+1|Start Here|
+2|Tutorial|
+3|Core Concepts|
+4|Basics|
+5|Guides|
+6|Configuration|
+7|Reference|
+
+### 1. Start Here
+1. Getting Started
+1. Installation
+1. Editor Setup
+1. Upgrade to V2
+1. Migrate to Astro
+
+### 2. Tutorial
+1. Build a Blog
+
+### 3. Core Concepts
+1. Why Astro
+1. MPA vs. SPA
+1. Astro Islands
+
+### 4. Basics
+1. Project Structure
+1. Astro Components
+1. Pages
+1. Layouts
+1. Markdown & MDX
+1. Routing
+1. Imports
+1. Endpoints
+1. Data Fetching
+1. Deploy
+1. Troubleshooting
+
+### 5. Guides 
+TODO
+
+### 6. Configuration 
+TODO
+
+### 7. Reference 
+TODO
+
