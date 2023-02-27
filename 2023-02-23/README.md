@@ -3,7 +3,7 @@
 
 ## 1. `src/pages/index.astro`
 トップページ
-
+a
 ### import
 - Layout
 - Card
@@ -11,7 +11,7 @@
 ### Variables
 なし
 
-## 2. `src/lauouts/Layout.astro`
+## 2. `src/layouts/Layout.astro`
 全体レイアウトを定義する
 
 ### Variables
@@ -29,7 +29,7 @@
 - export interface `Props`
     - `title`
     - `body`
-    - `heref`
+    - `href`
 
 - const
     - `href`
