@@ -1,5 +1,5 @@
 {
-	"name": "2023-02-23",
+	"name": "2023-02-24",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
@@ -10,6 +10,6 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "^2.0.14"
+		"astro": "^2.0.15"
 	}
 }

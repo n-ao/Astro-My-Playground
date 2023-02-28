@@ -1,3 +1,11 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'Commands'
+pubDate: 2023-02-28
+author: 'n-ao'
+tags: ["git", "gh"]
+---
+
 ## gh
 - issue
     - gh issue create

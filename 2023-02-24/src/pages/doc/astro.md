@@ -1,3 +1,11 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'About Astro'
+pubDate: 2023-02-28
+author: 'n-ao'
+tags: ["astro"]
+---
+
 # Astro
 
 
@@ -39,6 +47,7 @@ Content Collections API||`src.content/`, Astro2.0〜
 Slug|||
 Hybrid Rendering|Page単位でSSR / SG(Static Generation)を変えることができる|Prerender API
 
+---
 
 ## メソッド・プロパティ
 
@@ -51,32 +60,27 @@ defineCollection({scheme; xxSchema})|ContentCollectionsのSchema定義|
 getCollection()|ContentCollectionsの全エントリー取得|
 getEntryBySlug(Collection name, Slug)|ContentCollectionsの単一エントリー取得|
 
+---
 
 ## その他
 |項目   |説明|備考
 |---|---|---|
 Nano Stores|ページ間・コンポーネント間の状態共有|`npm install nanostores`
-Zod|Content Collections APIに関係|
-Remark|AstroのMarkdown扱う部分に関係|
-Prism|Syntax highlighter|
-Shiki|Syntax highlighter|
+`Zod`|Content Collections APIに関係|
+`Remark`|AstroのMarkdown扱う部分に関係|
+`Prism`|Syntax highlighter|
+`Shiki`|Syntax highlighter|
 
 ---
 
 ## 参考ページ・ドキュメント(Official)
 - Project Structure
     - https://docs.astro.build/en/core-concepts/project-structure/
-
----
-
 - Getting started
     - https://docs.astro.build/en/getting-started/
 - Tutorial
     - Build your first Astro Blog
         - https://docs.astro.build/en/tutorial/0-introduction/
-
----
-
 - Guides
     - https://docs.astro.build/en/guides/integrations-guide/
 - Refenece
@@ -104,6 +108,8 @@ Shiki|Syntax highlighter|
 6|Configuration|
 7|Reference|
 
+---
+
 ### 1. Start Here
 1. Getting Started
 1. Installation
@@ -112,7 +118,7 @@ Shiki|Syntax highlighter|
 1. Migrate to Astro
 
 ### 2. Tutorial
-1. Build a Blog
+1. Build a Blog ✅
 
 ### 3. Core Concepts
 1. Why Astro
